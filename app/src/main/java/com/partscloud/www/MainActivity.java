@@ -19,7 +19,7 @@ import com.partscloud.www.fragment.UserFragment;
 import com.partscloud.www.utils.DeviceInfoUtil;
 import com.partscloud.www.utils.FileUtil;
 
-public class MainActivity extends FragmentActivity {// ActionBarActivity
+public class MainActivity extends FragmentActivity {
     public static final String TAG = "MainActivity";
     private FragmentTabHost tab_host;
     private RadioGroup bottom_bar;
