@@ -2,7 +2,7 @@ name: Deploy Hello World
 
 on:
   push:
-    branches: [master]
+    branches: [master, cursor/reset-to-empty-cursor-e2ab]
     paths:
       - "hello-world/**"
       - ".github/workflows/pages.yml"
