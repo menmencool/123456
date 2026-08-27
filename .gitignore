@@ -1,9 +1,43 @@
-*.iml
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
+# OS
 .DS_Store
-/build
-/captures
-.externalNativeBuild
+Thumbs.db
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
+.next/
+.turbo/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Java / Android / Gradle
+*.iml
+.gradle/
+local.properties
+captures/
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Misc
+*.log
+tmp/
+temp/
+.cache/
